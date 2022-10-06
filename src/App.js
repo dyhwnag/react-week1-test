@@ -8,6 +8,7 @@ const App = () => {
 
   const onClick = () => {
     setTodos([...todos, title])
+    setTitle('')
   }
 
   return (
